@@ -1,7 +1,7 @@
 ---
 title: Git, GitHub, and Version Control
 date: 2015-07-08
-tags: git, github, vcs
+tags: git github vcs
 excerpt: One of the first topics encountered by individuals trying to break into programming is the idea of version control. In this post, I will clarify version control through an analogy that most individuals are familiar with.
 ---
 One of the first topics encountered by individuals trying to break into
