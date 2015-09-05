@@ -29,7 +29,7 @@ individual data.
 
 Let's create a simply Dog class that we can use as an example.
 
-```ruby
+~~~ruby
  class Dog
    def initialize(name, breed, age)
      @name = name
@@ -53,7 +53,7 @@ Let's create a simply Dog class that we can use as an example.
      @age
    end
  end
-```
+~~~
 
 Line 1 and Line 23 is all the syntax you need to create a class. It would be a
 class that doesn't actually do anything, but to Ruby, you have correctly asked
