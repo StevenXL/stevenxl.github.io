@@ -1,0 +1,38 @@
+---
+title: Feedback in DBC
+date: 2015-08-09
+tags: feedback dbc
+excerpt: Feedback is a critical component of the DBC experience. In this post, I touch upon how feedback has shaped my DBC experience thus far.
+---
+By this point in the DBC course, I have had the opportunity to pair program with
+many different individuals, and a few things have caught my attention.
+
+The first item that has struck me during my pairing sessions is how much of my
+cohort is composed of women. Figuring out how to increase diversity in tech is
+all the rage - every organization claims to be doing something towards that
+goal. How much of that is lip service versus actual action is hard to tell. What
+I am sure about is that - assuming my cohort is exemplary of the rest of DBC -
+DBC is certainly helping to level the playing field for gender diversity in
+tech. The numbers are there.
+
+Another of my noticeable experiences from pairing has been how quickly my peers
+seem to have caught up. I entered the program worrying about how much I would
+know relative to my class mates. I knew some would be better, but in a fit of
+delusion I also thought I'd be "better" than average. That might have been true
+when the program started, but it no longer is.  Through my pairing sessions,
+through the questions my class mates are asking on our Google Plus community,
+and through a myriad other subtle ways, I have experienced our collective
+knowledge grow. It has been an inspiration to witness this change in my
+classmates. The smarter we are collective, the better the opportunities that
+will be opened to use individually. I am proud of what is happening here.
+
+That is not to say, however, that there have not been some disappointments. I
+have had two pairing sessions now (a relatively small number) where the
+individuals were not prepared. I try to give the benefit of the doubt to my
+pairing partner when that happens. After all, we are all struggling how to
+balance the demands of DBC with our other responsibilities, and it doesn't
+always work out exactly right. What does worry me is when I see a pattern of
+excuses. I believe there is one individual in particular who has gotten off on
+the wrong foot, and it struggling to catch up with the rest of us. I hope this
+changes, because as I said before, the better we all are coming out of the
+program, the better opportunities that DBC graduates will have.

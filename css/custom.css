@@ -1,0 +1,117 @@
+@import "monokai.css";
+
+nav {
+  margin-bottom: 3.125em;
+}
+
+.navbar-default {
+  background-color: white;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #0FA0CE;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: #0C80A5;
+  text-transform: uppercase;
+}
+
+.navbar-default .navbar-brand {
+  color: #0FA0CE;
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+  color: #0C80A5;
+}
+
+i {
+  color: #0FA0CE;
+  margin-right: 5%;
+}
+
+footer i:hover {
+  color: #0C80A5;
+}
+
+.tags {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.post-preview {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.post-main-header {
+  color: #ce3d0f;
+}
+
+article h2 a {
+  color: #ce3d0f;
+}
+
+article h2 a:focus, article h2 a:hover {
+  color: #87280a;
+}
+
+.article-footer {
+  font-size: 18px;
+  color: #909090;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 70px;
+}
+.footer {
+  position: fixed; /* Bootstrap example shows this as absolute */
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 70px;
+  background-color: white;
+  padding: 0.5% 0;
+  border-top: 1px solid #E7E7E7;
+  line-height: 1.42857;
+}
+
+.hero-image {
+  margin-top: 2%;
+  font-size: 1.5em;
+  height: 75vh;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 15%;
+  background: url("../img/on-the-edge-degraded.jpg") no-repeat center;
+  background-size: cover;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+  padding: 60px 15px 0;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}

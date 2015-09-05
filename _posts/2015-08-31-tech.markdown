@@ -1,0 +1,58 @@
+---
+title: What is NoSQL
+date: 2015-08-31
+tags: nosql sql databases
+excerpt: NoSQL databases have risen in popularity over the last few years. This post is an 101-type introduction to some of the reasons why.
+---
+Relational databases have been ubiquitous in the enterprise world for some time
+now. In terms of storing data in tabular form, relational databases are fast,
+time-tested, and powerful.
+
+However, over the past years, NoSQL databases have risen in popularity. The term
+NoSQL encompass a number of different technologies - such as document databases,
+key / value stores, graph stores, and wide-column stores.
+
+Each of these technologies solves a different problem, but in general they are
+designed to cope with the scale and agility challenges that relational databases
+were not built to address. I will go over the specifics on how NoSQL databases
+differ from SQL.
+
+## Schemas
+
+SQL databases require a schema to be defined before data can be stored.  The
+system must know not only what attribute must be stored - i.e., a phone number
+or a name - but what type of data that attribute will be - i.e., text, number,
+etc. If a team decides to change the data that is stored, a new schema must be
+designed and the current database must be migrated.  This can be a slow process
+for large data sets.  In the world of Agile Development, an SQL database can
+represent a significant deterrent to fast iteration.
+
+NoSQL databases, on the other hand, do not have need predefined schemas. Teams
+can iterate over their product, design, and business model without having to
+worry about changing the database.
+
+## One Database, Multiple Servers
+
+Relational databases rose to popularity before the era of Cloud. It is no
+surprise that relational databases were designed to be deployed on a single
+server. Due to the large volume of information that today's businesses must deal
+with, horizontal scaling has become a constraint. The answer is vertical
+scaling, in which capacity is added to a database in the form of multiple
+servers, not a single massive server.
+
+NoSQL databases were designed to be hosted on multiple servers. They have
+built-in support for spreading data across servers, ensuring consistency of the
+data, load balance request for resources, and combining the data once more when
+a query warrants it.
+
+## Replication
+
+Most NoSQL databases also support automatic replication. This allows for high
+availability and responsive disaster recovery.
+
+## Summary
+
+NoSQL databases are increasing in popularity and have real benefits to teams
+that require non-tabular data structures, the ability to iterate quickly without
+having the database slow that down, and the ability to scale a database
+vertically.

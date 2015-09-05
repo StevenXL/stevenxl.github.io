@@ -1,0 +1,42 @@
+# Site settings
+title: Steven Leiva | Software Engineer
+email: leiva.steven@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  This is the personal website of Steven Leiva. Steven Leiva is a novice
+  software engineer. Steven is passionate about technology, business, and the 
+  intersection of the two. In his spare time, Steven likes to read, spend time
+  with his loved ones and friends, and continue honing his developer skills.
+url: "https://stevenxl.github.io" # the base hostname & protocol for your site
+twitter_username: stevenleiva1
+github_username:  stevenxl
+
+# Build settings
+permalink: /:title
+
+# Conversion
+markdown: redcarpet
+
+#Default settings
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      author: Steven Leiva
+      layout: "post"
+      comments: true
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  -
+    scope:
+      path: ""
+      type: "drafts"
+    values:
+      author: Steven Leiva
+      layout: "post"
+      comments: true

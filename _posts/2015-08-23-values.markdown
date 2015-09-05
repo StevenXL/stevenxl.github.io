@@ -1,0 +1,46 @@
+---
+title: Values
+date: 2015-08-23
+tags: values
+excerpt: DBC represents a career change for me. In this post, I enumerate why I believe programming is the correct career for me.
+---
+When I reflect back on the times that I have been the happiest or most proud,
+several recurring values come to mind. I've listed these below in a table:
+
+<table class="u-full-width">
+  <thead>
+    <tr>
+      <th>Exploring</th>
+      <th>My</th>
+      <th>Values</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Enthusiasm</td>
+      <td>Purity</td>
+      <td>Competence</td>
+    </tr>
+    <tr>
+      <td>Quality</td>
+      <td>Order</td>
+      <td>Self-Reliance</td>
+    </tr>
+    <tr>
+      <td>Autonomy</td>
+      <td>Growth</td>
+      <td>Efficiency</td>
+    </tr>
+  </tbody>
+</table>
+
+## Reflection on Values
+
+These values reflect the factors that are important to me, and they generally
+fall into two major categories. First, I find satisfaction in a job well-done.
+By this I mean that the work-product not only met its goals, but that it was
+accomplished efficiently, in a timely manner, with the right level of resources
+and with best practices in mind. Secondly, I also value work that helps me grow
+personally. By this, I am speaking specifically about projects that have taught
+me something new, or that provide me with time necessary to grow outside of the
+project itself. (Ahem - work / life balance anyone?).

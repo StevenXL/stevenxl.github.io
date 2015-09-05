@@ -1,0 +1,81 @@
+---
+title: Git, GitHub, and Version Control
+date: 2015-07-08
+tags: git, github, vcs
+excerpt: One of the first topics encountered by individuals trying to break into programming is the idea of version control. In this post, I will clarify version control through an analogy that most individuals are familiar with.
+---
+One of the first topics encountered by individuals trying to break into
+programming is the idea of version control. After all, being a professional
+developer requires using a version control system, so it makes logical sense to
+introduce this early on. However, it is a tough topic for a budding programmer
+to cut their teeth on. The concepts necessary to understand version control (and
+in particular git) are tough enough on their own, but it becomes doubly as
+confusing and intimidating when wrapped with another entirely new topic - i.e.,
+programming.
+
+Version control, however, is nothing more than a systematic way of storing and
+retrieving different versions of a project. The project can be a Word document,
+PowerPoint file, or - in its most common usage - a code base. If you have ever
+had to save version 1, version 2, version 3, etc., of a file, then you have used
+a form of version control. At it core, what professional version control
+software does is automate that process, make it less error-prone, and - as we'll
+see with git / GitHub - help us collaborate with others on the same file(s).
+
+In fact, if you have ever worked in an office environment, the workflow
+described above, and its associated pain, is likely very familiar to you.  Let's
+use that familiarity as an analogy to understand some key concepts of one of the
+more popular version control systems - git. Git is very customizable, but there
+are certain conventions that are used by developers to make it easy for folks to
+orient themselves. In the examples below, I will be using these conventions.
+
+## Repository
+In version control land, think of a repository as a folder. This folder is going
+to store all the files and folders related to a single project.
+
+## Branch
+Think of a branch as another folder within your main project folder - i.e., your
+repository. In every repository, there is a special branch called "master". This
+branch holds the project in a state that is always production ready. If your VP
+came along and asked you for the latest PowerPoint presentation and all the
+related files - i.e., all the Excel files used to build the charts in the
+PowerPoint - the master files are what you would give him. All the numbers /
+charts will match, and there will be no spelling errors.
+
+So what good are branches? Well, you likely have the need to update all your
+PowerPoint / Excel presentation at some point. Maybe new numbers are out, or
+maybe you want to add a new chart. Instead of polluting your master branch (you
+never know when the VP will be back demanding the materials again), you create a
+new branch / folder and make your changes on that branch. If someone needs the
+documents, but you haven't finished updating your files, you just send them the
+master branch.
+
+## Commit
+So you now have two branches. One - the master branch - is there to make sure
+that if anyone asks you for the documents, you have a version that will make you
+look good. The other branch, where you are adding a new chart, is your feature
+branch. The new chart is going to take several days to build while you grab the
+information, cleanse the data, and figure out the best way to display it. At
+each stage of that process (say, when the data is clean), you save your progress
+by committing your changes.  Basically, you are hitting CTRL + S, but on your
+entire branch as opposed to just one file.
+
+Unlike simply saving a PowerPoint file, a version control system keeps track of
+the files at each commit. If you made a mistake, you can go back to an earlier
+commit, when you know the files were in a desirable state, and continue working
+from there.This is the feature of a version control system that does away with
+the need to keep saving version 1, version 2, etc. Not only that, but by using a
+commit message, you can write down what were the changes made to the files
+compared to the last commit.
+
+## Merge
+After a few days, the new chart is ready, you add a new slide in your PowerPoint
+- the new feature is ready. At this point, you are ready to merge your new
+feature into your master branch. Instead of figuring out what needs to be added
+where, the version control system takes care of this for you. Just use its
+command to merge the feature branch into the master branch.
+
+Version control systems are much more powerful than this. We didn't even get
+into collaborating with others, and explaining concepts / commands such as
+pull,fetch, fork, or clone. Hopefully, however, this analogy is helpful in
+understanding version control at a conceptual level, and makes learning about
+more advanced topics a bit easier.
