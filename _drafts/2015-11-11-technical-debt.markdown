@@ -2,6 +2,7 @@
 title: Technical Debt - Moving My Blog to Jekyll
 date: 2015-11-11
 tags: technical-debt jekyll
+excerpt: My modest encounter with technical debt.
 ---
 During <strong>Phase 0</strong> of DBC - i.e., before we ever stepped foot on
 campus - we were asked to start a blog on [GitHub
