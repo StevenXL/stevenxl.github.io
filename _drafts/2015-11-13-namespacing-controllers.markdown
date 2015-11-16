@@ -29,20 +29,16 @@ what the nested element is / does.
 
 ## How Namespace in Rails Controllers Works
 Namespacing a controller in Rails will generate a controller that:
+
 1. Inherits from `ApplicationController`
-2. Provides a base class within a namespace
+2. Provides a base class within a namespaced class
 2. Lives inside a folder named after the namespace
-3. Provides a simple interface for having other controllers inherit from the
-   base class.
 
 For example, running `rails g controller admin/application` will generate a
 file `application_controller.rb`. Because this file 1) lives inside an `admin`
 directory and 2) defines a class namespaced within `Admin`, it does not clash or
 overwrite the `application_controller.rb` file or class that lives one directory
 above the directory tree.
-
-Further, to generate other controllers that inherit from the newly generated
-controller, the command `rails g admin/projects` would suffice.
 
 ## Why Namespace Controllers in Rails
 Controllers in Rails are namespaced when you want to perform the same action on
@@ -51,24 +47,25 @@ authorizing at the base-level controller and declaring other controllers to
 inherit from the base, the developer is freed from having to authorize the user
 in each individual controller.
 
-## Bad Things Happen if You Don't Follow the Rails Way
+## Same Effect without Namespacing
 
-I can achieve the same effect without namespacing, by creating a base controller
-that inherits from 'ApplicationController'. For illustrative purposes, let's call
-this controller 'UserActionsController'. I can define the authorization in
-'UserActionsController', and have the controllers I need to protect inherit from
-'UserActionsController'.
+One can achieve the same effect without namespacing, by creating a base
+controller that inherits from 'ApplicationController'. For illustrative
+purposes, let's call this controller 'UserActionsController'. One can define the
+authorization in 'UserActionsController', and have the controllers that share
+the same action(s) inherit from 'UserActionsController'.
 
-However, this approach has a few problems.  First, I would have to remember to
-manually over-write which controller the "protected" controllers inherit from,
-as `rails g controller` will default to the unprotected 'ApplicationController'.
+As far as I can tell, there are only a few downsides to not namespacing a
+controller. First, you lose the context that is provided by the namespace.
 Secondly, if I only want certain actions of the same resource protected, I'd
 have to define the authorization on a per-controller level instead of at the
 top-level, or I would have to create two separate controllers for the same
-resource. (Because there is no namespacing, these controllers cannot have the
-same name). Of course, such a change would reverberate back to the routes.
+resource. Because there is no namespacing, the second strategy would require two
+differently-named controllers for the same resource.
 
 ## Conclusion
 In short, namespacing in Rails provides an easy way to create a new base
 controller in which common actions that need to be performed on a set of
-controllers can be defined.
+controllers can be defined. By avoiding duplicating the same action on a
+controller level, future changes to those actions become trivial. (It is also a
+far less error-prone process than defining actions on a controller level).
