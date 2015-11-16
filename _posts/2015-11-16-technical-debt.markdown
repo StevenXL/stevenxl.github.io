@@ -1,6 +1,6 @@
 ---
 title: Technical Debt - Moving My Blog to Jekyll
-date: 2015-11-11
+date: 2015-11-16
 tags: technical-debt jekyll
 excerpt: My modest encounter with technical debt.
 ---
