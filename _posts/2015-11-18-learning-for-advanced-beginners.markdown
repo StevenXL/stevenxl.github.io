@@ -1,17 +1,18 @@
 ---
 title: Learning for Advanced Beginners
-date: 2015-11-12
+date: 2015-11-18
 tags: learning beginners
 excerpt: How I achieve a basic level of proficiency with new technologies.
 ---
 As developers, we are often asked to work with new technologies. Commonly, this
-entails learning a new DSL and incorporating that into a larger framework. (In
-a previous post, I related my experience in having to learn YAML and Liquid
-Templates, among other technologies, in order to move my blog to Jekyll). For
-Rails developers, every new gem is a new API that one must learn. Having gone
-through this process many times, and planning to go through it many more, I came
-up with a process to follow in order to achieve a basic level of proficiency
-with new technologies in a timely fashion.
+entails learning a new DSL and incorporating that into a larger framework. (In a
+previous post, I related my experience in having to learn
+[YAML](http://yaml.org/) and [Liquid Templates](http://liquidmarkup.org/), among
+other technologies, in order to move my blog to Jekyll). For Rails developers,
+every new gem is a new API that one must learn. Having gone through this process
+many times, and planning to go through it many more, I came up with a process to
+follow in order to achieve a basic level of proficiency with new technologies in
+a timely fashion.
 
 ## Know Where to Get Help
 One of the benefits of picking the leading DSL / technology for a particular
@@ -44,7 +45,7 @@ consistent, so that when you see a particular pattern in one part of it, you can
 most likely apply it somewhere else. I imagine that many expert Rails developers
 have developed this sixth sense - they know what the system should do, even if
 they don't know how to make the system do that. (That last part is solved by a
-simple visit to the Rails API).
+simple visit to the [Rails API](http://api.rubyonrails.org/)).
 
 ## Read the Table of Contents
 As I mentioned above, it is impossible to hold in (human) memory any of today's
