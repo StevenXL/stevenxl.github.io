@@ -1,23 +1,23 @@
 ---
 title: Namespacing Controllers in Rails
-date: 2015-11-13
+date: 2015-11-25
 tags: rails ruby namespacing
 excerpt: The What, the Why, and the How of Controller Namespacing in Rails
 ---
 It doesn't take long for the novice Rails developer to come across a
 *deliberately* namespaced controller. (I use the word deliberate because the
 class defined in the ever-present `application_controller.rb` itself inherits
-from a namespaced class. For the sake of brevity, I will omit
-the word deliberate going forward). In this post, I will explain
-the reason behind namespacing a controller - i.e., how and why the technique is
-commonly used.
+from a namespaced class. For the sake of brevity, I will omit the word
+deliberate going forward). In this post, I will explain the reason behind
+namespacing a controller in Rails - i.e., how and why the technique is commonly
+used.
 
 ## What is Namespacing in General?
 In software development, namespacing is a technique by which a class / module /
-constant or other container for code is **nested** within another such
-container.  The goal of namespacing is, primarily, to avoid polluting the
-top-level namespace and avoid naming collisions and, secondarily, to provide
-context for the nested code.
+constant or other code is **nested** within another container. The goal of
+namespacing in this context is, primarily, to avoid polluting the top-level
+namespace and avoid naming collisions and, secondarily, to provide context for
+the nested code.
 
 For example, the constant `PI` in the core ruby library is nested within the
 `Math` module. In order to access this constant, you'd have to use the **scope
@@ -34,10 +34,10 @@ Namespacing a controller in Rails will generate a controller that:
 2. Provides a base class within a namespaced class
 2. Lives inside a folder named after the namespace
 
-For example, running `rails g controller admin/application` will generate a
-file `application_controller.rb`. Because this file 1) lives inside an `admin`
+For example, running `rails g controller admin/application` will generate a file
+`application_controller.rb`. Because this file 1) lives inside an `admin`
 directory and 2) defines a class namespaced within `Admin`, it does not clash or
-overwrite the `application_controller.rb` file or class that lives one directory
+overwrite the `application_controller.rb` file / class that lives one directory
 above the directory tree.
 
 ## Why Namespace Controllers in Rails
@@ -61,7 +61,8 @@ Secondly, if I only want certain actions of the same resource protected, I'd
 have to define the authorization on a per-controller level instead of at the
 top-level, or I would have to create two separate controllers for the same
 resource. Because there is no namespacing, the second strategy would require two
-differently-named controllers for the same resource.
+differently-named controllers for the same resource, a red flag in any Rails
+project.
 
 ## Conclusion
 In short, namespacing in Rails provides an easy way to create a new base
