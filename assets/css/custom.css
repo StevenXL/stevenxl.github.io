@@ -18,7 +18,7 @@
   padding: 0px;
 }
 
-.posts {
+.center-content {
   max-width: 85%;
   margin: 0 auto;
 }
@@ -28,7 +28,7 @@
     height: 50px;
   }
 
-  .posts {
+  .center-content {
     max-width: 96%;
   }
 }
