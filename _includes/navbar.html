@@ -54,7 +54,11 @@
           <li>
             <a class="page-scroll" href="/index.html#work">Work</a>
           </li>
-          <li>
+          {% if page.url == "/blog-index.html" %}
+            <li class="active">
+          {% else %}
+            <li>
+          {% endif %}
             <a class="page-scroll" href="/blog-index.html">Blog</a>
           </li>
           <li>

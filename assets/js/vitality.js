@@ -92,10 +92,12 @@
     });
 
     // Scrollspy: Highlights the navigation menu items while scrolling.
-    $('body').scrollspy({
-        target: '.navbar-fixed-top',
-        offset: 51
-    })
+    if (location.pathname == "/index.html") {
+      $('body').scrollspy({
+          target: '.navbar-fixed-top',
+          offset: 51
+      })
+    }
 
     // Portfolio Filtering Scripts & Hover Effect
     var filterList = {
