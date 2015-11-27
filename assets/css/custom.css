@@ -4,13 +4,8 @@
   height: 80px;
 }
 
-@media (max-width: 768px) {
-  .spacer {
-    height: 50px;
-  }
-}
-
 .post-preview {
+  font-size: 1.5em;
   padding: 0;
   margin-bottom: 10px;
 }
@@ -21,4 +16,19 @@
 
 .article-footer {
   padding: 0px;
+}
+
+.posts {
+  max-width: 85%;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .spacer {
+    height: 50px;
+  }
+
+  .posts {
+    max-width: 96%;
+  }
 }
