@@ -1,6 +1,6 @@
 ---
 title: The Pundit Gem - Conceptual Notes
-date: 2015-11-14
+date: 2015-11-26
 tags: rails ruby pundit gems
 excerpt: Conceptual notes on how the Pundit gem works.
 ---
