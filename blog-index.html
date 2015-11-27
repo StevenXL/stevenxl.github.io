@@ -8,16 +8,18 @@
 <article>
   <h2><a href="{{ post.url | prepend: site.baseurl}}">{{ post.title }}</a></h2>
 
-  <div class="tags">
-    <strong>Tags:</strong> {% for tag in post.tags%} {{ tag }} {% endfor %}
-  </div><!-- end tags -->
-
   <section class="post-preview">
     {{ post.excerpt | strip_html }}
   </section>
 
+  <div class="tags">
+    <strong>Tags:</strong> {% for tag in post.tags%} {{ tag }} {% endfor %}
+  </div><!-- end tags -->
+
   <section class="article-footer">
+    <small>
     {{ post.author }} | <time datetime="{{ post.date | date: %Y-%m-%d}}"> {{ post.date | date_to_string }}</time>
+    </small>
   </section>
 </article>
 
