@@ -1,6 +1,11 @@
 @import "monokai.css";
 
 .spacer {
-  border: 1px solid red;
-  height: 50px;
+  height: 80px;
+}
+
+@media (max-width: 768px) {
+  .spacer {
+    height: 50px;
+  }
 }
