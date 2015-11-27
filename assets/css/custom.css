@@ -9,3 +9,16 @@
     height: 50px;
   }
 }
+
+.post-preview {
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.tags {
+  margin-bottom: 10px;
+}
+
+.article-footer {
+  padding: 0px;
+}
