@@ -39,10 +39,10 @@
             <a class="page-scroll" href="#portfolio">Portfolio</a>
           </li>
           <li>
-            <a class="page-scroll" href="blog-index.html">Blog</a>
+            <a class="page-scroll" href="#contact">Contact</a>
           </li>
           <li>
-            <a class="page-scroll" href="#contact">Contact</a>
+            <a class="page-scroll new-page" href="blog-index.html">Blog</a>
           </li>
         {% else %}
           <li class="hidden">
@@ -54,15 +54,15 @@
           <li>
             <a class="page-scroll" href="/index.html#portfolio">Portfolio</a>
           </li>
+          <li>
+            <a class="page-scroll" href="/index.html#contact">Contact</a>
+          </li>
           {% if page.url == "/blog-index.html" %}
             <li class="active">
           {% else %}
             <li>
           {% endif %}
             <a class="page-scroll" href="/blog-index.html">Blog</a>
-          </li>
-          <li>
-            <a class="page-scroll" href="/index.html#contact">Contact</a>
           </li>
         {% endif %}
 
