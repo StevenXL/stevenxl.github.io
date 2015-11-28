@@ -1,0 +1,38 @@
+@import "monokai.css";
+
+.spacer {
+  height: 80px;
+}
+
+.post-preview {
+  font-size: 2.3437em;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.tags {
+  margin-bottom: 10px;
+}
+
+.article-footer {
+  padding: 0px;
+}
+
+.center-content {
+  max-width: 85%;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .spacer {
+    height: 50px;
+  }
+
+  .center-content {
+    max-width: 96%;
+  }
+}
+
+.tags {
+  font-size: 1.7577em;
+}
