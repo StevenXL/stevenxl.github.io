@@ -92,7 +92,7 @@
     });
 
     // Scrollspy: Highlights the navigation menu items while scrolling.
-    if (location.pathname == "/index.html") {
+    if (location.pathname == "/index.html" || location.pathname == "/") {
       $('body').scrollspy({
           target: '.navbar-fixed-top',
           offset: 51
