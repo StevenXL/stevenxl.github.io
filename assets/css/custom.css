@@ -36,3 +36,12 @@
 .tags {
   font-size: 1.7577em;
 }
+
+.portfolio-title, .portfolio-desc {
+  color: white;
+  padding-top: 5%;
+}
+
+.portfolio-desc {
+  padding: 0px 5%;
+}
