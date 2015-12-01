@@ -42,6 +42,26 @@
   padding-top: 5%;
 }
 
+.portfolio-title {
+  font-weight: bold;
+}
+
 .portfolio-desc {
   padding: 0px 5%;
+}
+
+@media (max-width: 768px) {
+  .portfolio-wrapper {
+    min-height: 250px;
+  }
+}
+
+@media (max-width: 360px) {
+  .portfolio-wrapper {
+    min-height: 330px;
+  }
+}
+
+.portfolio-btn {
+  margin: 2% 0;
 }
