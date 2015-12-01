@@ -130,7 +130,7 @@
                 },
                 function() {
                     $(this).find('.caption').stop().animate({
-                        bottom: -75
+                        bottom: -125
                     }, 200, 'easeInQuad');
                     $(this).find('img').stop().animate({
                         top: 0
