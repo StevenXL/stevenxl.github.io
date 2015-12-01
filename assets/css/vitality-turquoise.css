@@ -840,6 +840,12 @@ aside.cta-quote span.quote {
   height: 75px;
   bottom: -75px;
 }
+@media (max-width: 360px) {
+  #portfoliolist .portfolio .portfolio-wrapper .caption {
+    height: 125px;
+    bottom: -125px;
+  }
+}
 #portfoliolist .portfolio .portfolio-wrapper .caption .caption-bg {
   background: #41c4ab;
   width: 100%;
