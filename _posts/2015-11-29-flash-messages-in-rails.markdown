@@ -106,6 +106,17 @@ page as well as on this [Stack
 Overflow](https://stackoverflow.com/questions/9390778/best-practice-method-of-displaying-flash-messages)
 answer.
 
+In your views, the stack overflow solution would look something like this:
+
+~~~erb
+<% flash.each do |key, value| %>
+  <%= content_tag :div, value, class: "flash #{key}" %>
+<% end %>
+~~~
+
+Notice that there's no need to check if the `flash` is empty. If it is, then the
+block won't be run. Excellent!
+
 ## Do not put the presentation logic in the views
 Oftentimes, new Rails developers will put this logic in the view. Going back to
 our stable example, the thinking goes as follows:
