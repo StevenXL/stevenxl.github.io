@@ -65,3 +65,12 @@
 .portfolio-btn {
   margin: 2% 0;
 }
+
+.highlight {
+  font-weight: bold;
+}
+
+.highlight .c1 {
+  color: white;
+  font-weight: normal;
+}
